@@ -1,0 +1,11 @@
+local Market = {--Створення довільного массиву, де у першого елемента індекс 1 а не 0
+	'Apple',
+	'Banana',
+	'Carrot',
+	'Dragonfruit',
+	'Eggplant',
+	'Fennel',
+	'Grape',
+	'Honeydew',
+}
+print(Market[math.random(1,#Market)])--Виведення довільного елемента з массиву Market
